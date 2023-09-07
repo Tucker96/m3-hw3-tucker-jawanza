@@ -74,7 +74,8 @@ button:hover {
 }
 
 .hero-img {
-    background-image: url("/assets/images/beyonce_image2og_copy.jpg");
+/*     background-image: url("/assets/images/beyonce_image2og_copy.jpg"); */
+    background-image: url("https://raw.githubusercontent.com/Tucker96/m3-hw3-tucker-jawanza/main/assets/images/beyonce_image2og_copy.jpg");
     /* background-size: cover;
     -webkit-background-size: cover;
     width: 100%;
