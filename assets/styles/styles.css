@@ -221,3 +221,78 @@ footer li {
     padding: 20px;
     text-align: center;
 }
+
+
+@media (max-width: 1118px){
+  
+}
+
+@media (max-width: 944px){
+    .nav-links li a {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 860px){
+
+    .nav-links li a {
+        visibility: hidden;
+    }
+  
+}
+
+@media screen and (max-width: 600px) {
+
+    .hero-img {
+        background-image: url("https://tucker96.github.io/m3-hw3-tucker-jawanza/assets/images/beyonce_image2og_copy.jpg");
+        background-position: 60% 25%;
+        transition: all 0.3s ease 0s;
+    }
+
+    .nav-links li a {
+        visibility: hidden;
+    }
+
+    footer {
+        min-width: 100%;
+        position: center;
+        padding: 30px;
+        text-align: center;
+        border-top: solid 3px black;
+        text-align: center;
+    }
+
+    .seatu,
+    .foot-link {
+        color: blue;
+        font-family: Roboto, sans-serif;
+    }
+
+    .seatu:hover {
+        border-bottom: solid 2px #c51616;
+        font-family: Roboto, sans-serif;
+
+    }
+
+    .foot-link:hover {
+        border-bottom: solid 2px #c51616;
+        font-family: Roboto, sans-serif;
+    }
+
+    main .text-container {
+        max-width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10em;
+
+    }
+
+    main .text-container {
+        font-size: 0.87rem;
+
+    }
+
+    .text-container h2 {
+        font-size: 1rem;
+
+    }
