@@ -165,17 +165,21 @@ caption {
     padding-top: 15px;
 }
 
-.seatu,.foot-link {
+.seatu,
+.foot-link {
     color: blue;
     font-family: Roboto, sans-serif;
 
-}
-
-.seatu,.foot-link:hover {
+.seatu:hover {
     border-bottom: solid 2px #c51616;
     font-family: Roboto, sans-serif;
 
 }
+
+.foot-link:hover  {
+        border-bottom: solid 2px #c51616;
+        font-family: Roboto, sans-serif;
+    }
 
 .list-awards {
     font-weight: 300;
