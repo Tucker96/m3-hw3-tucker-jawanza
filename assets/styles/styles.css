@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.logo {
+    width: 130px;
+    margin-left: 20px;
+}
+
+li,
+a,
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    min-width:1020px ;
+} */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    border-bottom: 2px solid black;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(137, 137, 137, 1);
+    border: none;
+    /* border-radius: 50px; */
+    cursor: pointer;
+    min-width: 180px;
+}
+
+button:hover {
+    background-color: rgb(137, 137, 137, 0.8);
+    transition: all 0.3s ease 0s;
+}
+
+.img-containter {
+    margin: 0 auto;
+}
+
+.hero-img {
+    background-image: url("/assets/images/beyonce_image2og_copy.jpg");
+    /* background-size: cover;
+    -webkit-background-size: cover;
+    width: 100%;
+    height: 700px;
+    background-attachment: fixed;
+    background-position: 80% 80%; */
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-attachment: fixed;
+    background-position: 40%;
+    text-align: center;
+    min-width: 10em;
+    min-height: 500px;
+}
+
+main,list-awards {
+    margin: 20px;
+    font-weight: 300;
+    font-family: Roboto, sans-serif;
+    line-height: 1.7em;
+
+}
+
+main .text-container {
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+
+}
+
+
+.beyonce-bio,
+.beyonce-disco,
+.beyonce-awards,
+.beyonce-film,
+.bey-intro {
+    padding: 30px 10px;
+}
+
+.bey-intro {
+    padding: 15px;
+    border-left: red solid 3px;
+}
+
+.bey-intro h1 {
+    padding: 10px;
+    border-right: 3px red solid;
+
+}
+
+aside {
+    width: 40%;
+    text-align: center;
+    padding: 2rem;
+    margin-left: 0.1rem;
+    padding-top: auto;
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    color: #c51616;
+    letter-spacing: 2px;
+}
+
+aside>p {
+    margin: 0.5rem;
+}
+
+.albums {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #c51616;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    border-bottom: 2px solid #c51616;
+}
+
+
+.header-space {
+    padding-right: 15px;
+}
+
+caption {
+    caption-side: bottom;
+    padding-top: 15px;
+}
+
+.seatu,.foot-link {
+    color: blue;
+    font-family: Roboto, sans-serif;
+
+}
+
+.seatu,.foot-link:hover {
+    border-bottom: solid 2px #c51616;
+    font-family: Roboto, sans-serif;
+
+}
+
+.list-awards {
+    font-weight: 300;
+    font-family: Roboto, sans-serif;
+}
+
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #c51616;
+    bottom: 40px;
+    right: 50px;
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+    font-size: 22px;
+}
+
+footer {
+    min-width: 100%;
+    position: center;
+    padding: 50px;
+    text-align: center;
+    border-top: solid 3px black;
+    text-align: center;
+}
+
+footer p {
+    font-weight: 300;
+    font-family: Roboto, sans-serif;
+}
+
+footer li {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
