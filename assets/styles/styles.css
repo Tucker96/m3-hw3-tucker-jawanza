@@ -1,16 +1,14 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
 
 * {
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     background-color: white;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .logo {
@@ -29,6 +27,8 @@ button {
     list-style: none;
 }
 
+
+
 /* header {
     display: flex;
     justify-content: space-between;
@@ -42,11 +42,11 @@ header {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding: 30px 10px;
     width: 100%;
     border-bottom: 3px solid black;
@@ -195,10 +195,10 @@ caption {
 
 }
 
-.foot-link:hover  {
-        border-bottom: solid 2px #c51616;
-        font-family: Roboto, sans-serif;
-    }
+.foot-link:hover {
+    border-bottom: solid 2px #c51616;
+    font-family: Roboto, sans-serif;
+}
 
 .list-awards {
     font-weight: 300;
@@ -241,36 +241,35 @@ footer li {
 }
 
 
-@media (max-width: 1118px){
-  
-}
+@media (max-width: 1118px) {}
 
-@media (max-width: 944px){
+@media (max-width: 944px) {
     .hero-img {
         background-image: url("https://tucker96.github.io/m3-hw3-tucker-jawanza/assets/images/beyonce_image2og_copy.jpg");
         background-position: 60% 25%;
         -webkit-transition: all 0.3s ease 0s;
         -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s;
-    } 
+    }
+
     .nav-links li a {
         visibility: hidden;
     }
 }
 
-@media (max-width: 860px){
+@media (max-width: 860px) {
     .hero-img {
         background-image: url("https://tucker96.github.io/m3-hw3-tucker-jawanza/assets/images/beyonce_image2og_copy.jpg");
         background-position: 60% 25%;
         -webkit-transition: all 0.3s ease 0s;
         -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s;
-    } 
+    }
 
     .nav-links li a {
         visibility: hidden;
     }
-  
+
 }
 
 @media screen and (max-width: 600px) {
@@ -281,7 +280,7 @@ footer li {
         -webkit-transition: all 0.3s ease 0s;
         -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s;
-    } 
+    }
 
     .nav-links li a {
         visibility: hidden;
@@ -329,5 +328,5 @@ footer li {
     .text-container h2 {
         font-size: 1rem;
 
-    } 
+    }
 }
