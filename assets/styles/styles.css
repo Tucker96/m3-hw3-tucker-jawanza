@@ -220,6 +220,14 @@ caption {
     font-size: 22px;
 }
 
+.beyonce-film h3 {
+    padding-top: 15px;
+}
+
+.beyonce-film li a:hover {
+    border-bottom: solid 2px #c51616;
+}
+
 footer {
     min-width: 100%;
     position: center;
